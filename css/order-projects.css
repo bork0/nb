@@ -1,0 +1,36 @@
+@media screen and (max-width: 992px) {
+    #projects {
+        display: flex;
+        flex-direction: column;
+    }
+    #upper1 {
+        order: 1;
+    }
+    #upper2 {
+        order: 3;
+    }
+    #upper3 {
+        order: 5;
+    }
+    #upper4 {
+        order: 7;
+    }
+    #upper5 {
+        order: 9;
+    }
+    #down1 {
+        order: 2;
+    }
+    #down1 {
+        order: 4;
+    }
+    #down3 {
+        order: 6;
+    }
+    #down4 {
+        order: 8;
+    }
+    #down5 {
+        order: 10;
+    }
+}
