@@ -187,7 +187,7 @@
 }
 
 .projects-section {
-    padding: 10rem 0
+    padding: 7rem 0;
 }
 
 .header-done {
@@ -325,18 +325,12 @@ footer {
     padding: 5rem 0
 }
 
-::selection {
+::selection,
+ ::-moz-selection {
     background: #ffee9b;
 }
 
-::-moz-selection {
-    background: #ffee9b;
-}
-
-.selection-specification ::selection {
-    background: #64a19d;
-}
-
+.selection-specification ::selection,
 .selection-specification ::-moz-selection {
     background: #64a19d;
 }
