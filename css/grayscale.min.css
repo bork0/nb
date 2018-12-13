@@ -325,12 +325,18 @@ footer {
     padding: 5rem 0
 }
 
-::selection,
+::selection {
+    background: #ffee9b;
+}
+
  ::-moz-selection {
     background: #ffee9b;
 }
 
-.selection-specification ::selection,
+.selection-specification ::selection {
+    background: #64a19d;
+}
+
 .selection-specification ::-moz-selection {
     background: #64a19d;
 }
